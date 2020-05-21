@@ -2,7 +2,7 @@
 
 the script is done motivated by my daughter Jessie and my wife Zelin
 
-We took Jessie's video everyday and most of them are uploaded to our NAS via DS Moment. We want to compile one video for each month of our little Jessie. As an engieer, I will automate this process.
+We took Jessie's video everyday and most of them are uploaded to our NAS via DS Moment. We want to compile one video for each month of our little Jessie. As an software engineer, I will automate this process.
 
 Prerequsite:
 1. Shell support
