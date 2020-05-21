@@ -8,14 +8,16 @@ toMonth=12
 fromDay=13
 toDay=31
 
-mkdir rawVideo
+
 
 for ((month=$fromMonth;month<=$toMonth;month++))
 do
+  mkdir rawVideo
   echo "month: $month"
   if [ -f Jessie-$year-$month.mp4 ]
   then
     echo "file Jessie-$year-$month.mp4 exist, go to next month"
+    fromDay=1
     continue
   fi
   for ((day=$fromDay;day<=$toDay;day++))
